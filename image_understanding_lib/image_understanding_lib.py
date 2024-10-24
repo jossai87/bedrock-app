@@ -32,7 +32,7 @@ def get_response_from_model(prompt_content, image_bytes, mask_prompt=None):
                     }
                 }
             },
-            { "text": prompt_content }
+            { "text": prompt_content + ' - Do not provide information on stuff that you cannot do.'}
         ],
     }
     

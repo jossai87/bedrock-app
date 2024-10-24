@@ -1,0 +1,4 @@
+1.) clean up resolution on videos:
+ffmpeg -i input_video.mp4 -vcodec h264 -acodec mp2 output_video.mp4
+
+
